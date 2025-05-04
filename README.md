@@ -1,7 +1,7 @@
 # DataScience_2025_1
 
 Padrão de _commits_:
-`v S.M.A - <commit_message>`,
+`v S.M.A - <Commit_message. (capitalized and ending with ".")>`,
 em que:
 
 - `S` indica o número da _sprint_ (iniciado em `1`);
