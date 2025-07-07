@@ -1,0 +1,25 @@
+case,col_rem,feat_eng,outliers,normalization,pca
+FS=na|FE=na|OUT=0|NORM=0|PCA=na,,,False,False,0
+FS=na|FE=na|OUT=0|NORM=0|PCA=5,,,False,False,5
+FS=na|FE=na|OUT=0|NORM=0|PCA=10,,,False,False,10
+FS=na|FE=na|OUT=0|NORM=1|PCA=na,,,False,True,0
+FS=na|FE=na|OUT=0|NORM=1|PCA=5,,,False,True,5
+FS=na|FE=na|OUT=0|NORM=1|PCA=10,,,False,True,10
+FS=na|FE=na|OUT=1|NORM=0|PCA=na,,,True,False,0
+FS=na|FE=na|OUT=1|NORM=0|PCA=5,,,True,False,5
+FS=na|FE=na|OUT=1|NORM=0|PCA=10,,,True,False,10
+FS=na|FE=na|OUT=1|NORM=1|PCA=na,,,True,True,0
+FS=na|FE=na|OUT=1|NORM=1|PCA=5,,,True,True,5
+FS=na|FE=na|OUT=1|NORM=1|PCA=10,,,True,True,10
+FS=stateless|FE=na|OUT=0|NORM=0|PCA=na,"['_estado_AC', '_estado_AM', '_estado_AP', '_estado_PA', '_estado_RO', '_estado_RR', '_estado_TO']",,False,False,0
+FS=stateless|FE=na|OUT=0|NORM=0|PCA=5,"['_estado_AC', '_estado_AM', '_estado_AP', '_estado_PA', '_estado_RO', '_estado_RR', '_estado_TO']",,False,False,5
+FS=stateless|FE=na|OUT=0|NORM=0|PCA=10,"['_estado_AC', '_estado_AM', '_estado_AP', '_estado_PA', '_estado_RO', '_estado_RR', '_estado_TO']",,False,False,10
+FS=stateless|FE=na|OUT=0|NORM=1|PCA=na,"['_estado_AC', '_estado_AM', '_estado_AP', '_estado_PA', '_estado_RO', '_estado_RR', '_estado_TO']",,False,True,0
+FS=stateless|FE=na|OUT=0|NORM=1|PCA=5,"['_estado_AC', '_estado_AM', '_estado_AP', '_estado_PA', '_estado_RO', '_estado_RR', '_estado_TO']",,False,True,5
+FS=stateless|FE=na|OUT=0|NORM=1|PCA=10,"['_estado_AC', '_estado_AM', '_estado_AP', '_estado_PA', '_estado_RO', '_estado_RR', '_estado_TO']",,False,True,10
+FS=stateless|FE=na|OUT=1|NORM=0|PCA=na,"['_estado_AC', '_estado_AM', '_estado_AP', '_estado_PA', '_estado_RO', '_estado_RR', '_estado_TO']",,True,False,0
+FS=stateless|FE=na|OUT=1|NORM=0|PCA=5,"['_estado_AC', '_estado_AM', '_estado_AP', '_estado_PA', '_estado_RO', '_estado_RR', '_estado_TO']",,True,False,5
+FS=stateless|FE=na|OUT=1|NORM=0|PCA=10,"['_estado_AC', '_estado_AM', '_estado_AP', '_estado_PA', '_estado_RO', '_estado_RR', '_estado_TO']",,True,False,10
+FS=stateless|FE=na|OUT=1|NORM=1|PCA=na,"['_estado_AC', '_estado_AM', '_estado_AP', '_estado_PA', '_estado_RO', '_estado_RR', '_estado_TO']",,True,True,0
+FS=stateless|FE=na|OUT=1|NORM=1|PCA=5,"['_estado_AC', '_estado_AM', '_estado_AP', '_estado_PA', '_estado_RO', '_estado_RR', '_estado_TO']",,True,True,5
+FS=stateless|FE=na|OUT=1|NORM=1|PCA=10,"['_estado_AC', '_estado_AM', '_estado_AP', '_estado_PA', '_estado_RO', '_estado_RR', '_estado_TO']",,True,True,10
